@@ -4,6 +4,7 @@ from telethon import events
 import os
 from PIL import Image
 from datetime import datetime
+from tg_bot import telethn, dispatcher
 from telegraph import Telegraph, upload_file, exceptions
 Anonymous = "Asuka"
 telegraph = Telegraph()
